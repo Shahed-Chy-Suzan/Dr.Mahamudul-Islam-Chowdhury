@@ -1,0 +1,895 @@
+/* ---------- Version: 1.0.0 ---------- */
+/* ---------- css code for responsive layout  ---------- */
+/* ---------- To make Responsive ---------- */
+
+/* ----------------------------------------------------------------------
+*   1 - media screen and (max-width: 1199px)
+*   2 - media screen and (max-width: 991px)
+*   3 - media screen and (max-width: 767px)
+*   4 - media screen and (max-width: 680px)
+*   5 - media screen and (max-width: 480px)
+*   6 - media screen and (max-width: 320px)
+---------------------------------------------------------------------- */
+
+
+/*  ------------------------------------------------------------------------------------------
+custom - media screen and (max-width: 1366px) Start
+------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 1750px) {
+.header-section nav.main-nav ul > li > a {
+		padding: 0 10px;
+	}
+	.header-section .hello_fixed_nav_wrapper  .hello_nav_fixed > li > a {
+		padding: 0 18px;
+	}
+	.hello_main_navigation .hello_logo img {
+		left: 30px;
+	}
+	.header-section nav.main-nav ul > .search_btn > a {
+		padding: 0px 20px;
+	}
+	.header-section nav.main-nav ul > .side-menu-btn > a {
+		    padding: 0px 20px 0px 20px;
+	}
+	.aboutme-section ul.service-list li {
+		width: 170px;
+		height: 180px;
+		padding: 30px;
+	}
+	.aboutme-section ul.service-list li > span.service-name{
+		font-size:18px;
+	}
+	.aboutme-section .success-child-left > p{
+		font-size:16px;
+	}
+}
+@media (max-width: 991px){
+	
+	.hello_menu_fixed_main_wrapper{
+		display:none !important;
+	}
+	
+	
+}
+@media screen and (max-width: 1199px) {
+	.hello_logo{
+		display:none;
+	}
+	.lang-skill-right{
+		margin-top:25px;
+	}
+	.header-section nav.main-nav ul > .side-menu-btn > a {
+		padding: 0px 30px 0px 12px;
+	}
+}
+@media (min-width: 1440px) and (max-width: 1550px) {
+	.aboutme-section ul.service-list li {
+		width: 150px;
+		height: 180px;
+		padding: 30px;
+	}
+	.aboutme-section ul.service-list li > span.service-name{
+		font-size:18px;
+	}
+	.aboutme-section .success-child-left > p{
+		font-size:16px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.sec-p100-bg-bs {
+		padding: 50px;
+	}
+
+	.Section-title span {
+		top: -13px;
+		font-size: 60px;
+	}
+
+	.fixed-left-side-body .profile-name {
+		padding: 35px 0px;
+	}
+	.fixed-left-side-body .discription {
+		padding: 30px;
+		text-align: left;
+	}
+	.fixed-left-side-body .profile-name {
+		box-shadow: 0px 1px 12px 3px rgba(1, 1, 1, 0.1);
+	}
+	ul.social-btn {
+		padding: 25px 0px;
+	}
+
+	.aboutme-section .success-child-left > i {
+		font-size: 50px;
+		margin-right: 15px;
+	}
+	.aboutme-section .success-child-left > p {
+		font-size: 17px;
+	}
+	.aboutme-section .success-child-right {
+		padding: 5px;
+	}
+
+	.header-section nav.main-nav {
+		height: 80px;
+		line-height: 80px;
+	}
+
+	.main-slider .item {
+		padding: 50px;
+	}
+	.main-slider .item-child-left {
+		padding: 40px 0px;
+	}
+	.main-slider .item-child-left h2.hi {
+		font-size: 60px;
+	}
+	.main-slider .item-child-left p.name {
+		font-size: 24px;
+	}
+	
+	.main-slider .item-child-left small.position {
+		font-size: 18px;
+	}
+	.main-slider .item-child-right {
+		width: 280px;
+		height: 280px;
+		margin: 26px 0px;
+	}
+
+	.aboutme-section ul.service-list li {
+		width: 155px;
+		height: 180px;
+		padding: 30px;
+	}
+	.aboutme-section ul.service-list li > span.service-name {
+		font-size: 16px;
+	}
+
+	.my-portfolio-section .button-group .button {
+		padding: 0px 28px;
+	}
+	.my-portfolio-section .element-item {
+		height: 280px;
+	}
+
+	.experience-left {
+		padding: 60px 30px;
+	}
+	.experience-right .achivement {
+		padding: 37px 25px 30px 30px;
+	}
+	.experience-right .achivement h2>.thumb {
+		font-size: 42px;
+		margin-top: -9px;
+	}
+	h2.title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	#testomonial-carousel {
+		height: 276px;
+		background: #ffffff;
+		box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
+	}
+	#testomonial-carousel .item .testomonial-img {
+		width: 32.99%;
+	}
+	#testomonial-carousel .item .testomonial-contant {
+		width: 67%;
+		padding: 41px 80px 41px 40px;
+		margin-top: 0px;
+		box-shadow: none;
+		margin-right: 0px;
+	}
+
+	#testomonial-carousel .owl-nav {
+		top: 0;
+		bottom: 0;
+		margin: 0;
+		right: 0;
+		width: 60px;
+		padding: 0px 0px;
+	}
+	#testomonial-carousel .owl-prev:before,
+	#testomonial-carousel .owl-next:before {
+		height: 50%;
+		line-height: 140px;
+	}
+
+	.latest-news-section .news-image,
+	.latest-news-section .news-contant {
+		width: 100%;
+	}
+	.latest-news-section .news-image.b4-1:before,
+	.latest-news-section .news-image.b4-2:before {
+		display: none;
+	}
+	.latest-news-section .news-contant {
+		text-align: left;
+		padding: 30px 0px 0px 0px;
+	}
+	.latest-news-section .news-contant ul.post-mate2 li {
+		margin: 0;
+		padding: 0;
+		margin-right: 20px;
+		padding-right: 20px;
+	}
+	.contact-me-section .contact-left .cont-item {
+		height: 200px;
+		padding: 40px 40px;
+	}
+	.main_profile .item_child_left h2.hi {
+		font-size: 50px;
+    margin-bottom: 15px;
+	}
+}
+
+
+
+
+
+/*  ------------------------------------------------------------------------------------------
+1 - media screen and (max-width: 1199px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1300px) {
+	.fixed-left-side-body {
+		display: block;
+	}
+	.right-side-body {
+		width: 100%;
+		float: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.sec-p100-bg-bs {
+		padding: 50px;
+	}
+
+
+
+	.header-section nav.main-nav ul > li > a {
+		padding: 0px 12px;
+	}
+
+	.main-slider .item-child-left p.name {
+		font-size: 40px;
+	}
+	.main-slider .item-child-left small.position {
+		font-size: 18px;
+	}
+
+	.aboutme-section ul.service-list li {
+		margin-right: 15px;
+	}
+	.aboutme-section .success-child-left,
+	.aboutme-section .success-child-right {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.aboutme-section .success-child-left > i {
+		display: none;
+	}
+
+	.my-portfolio-section .button-group {
+		padding-left: 0px;
+	}
+	.my-portfolio-section .button-group .button {
+		padding: 0px 30px;
+	}
+	.aboutme-section .success-child-left{
+		width:100%;
+	}
+	.aboutme-section .success-child-right{
+		width:100%;
+		text-align:center;
+	}
+
+	#testomonial-carousel .owl-nav {
+		display: none;
+	}
+	#testomonial-carousel .item .testomonial-img {
+		width: 32.333%;
+	}
+	#testomonial-carousel .item .testomonial-contant {
+		width: 67%;
+		padding: 44px;
+		margin-top: 0px;
+		box-shadow: none;
+		margin-right: 0px;
+		padding-top: 76px;
+		padding-bottom: 76px;
+	}
+	#testomonial-carousel {
+		height: 280px;
+		box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
+	}
+	#testomonial-carousel .owl-dots {
+		top: 100%;
+		left:0;
+		right:0;
+		margin:0px auto;
+		position: absolute;
+		display: inline-block;
+		margin-top: 30px;
+		
+	}
+	#testomonial-carousel .owl-dot span {
+		width: 15px;
+		height: 15px;
+		margin: 10px 0px;
+		background: #f0f0f0;
+		transform: scale(1);
+		transition: all .4s ease-in-out;
+		margin-left:10px;
+		border-radius: 0;
+	}
+	#testomonial-carousel .owl-dot.active span {
+		background: #46e29a;
+		box-shadow: 0px 0px 25px 5px rgba(1, 1, 1, 0.1);
+		transform: scale(1.2);
+		    border-radius: 0;
+	}
+
+	.experience-section .experience-left {
+		margin-bottom: 30px;
+	}
+
+	.latest-news-section .news-image.b4-1:before,
+	.latest-news-section .news-image.b4-2:before {
+		display: none;
+	}
+	.latest-news-section .news-image,
+	.latest-news-section .news-contant {
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	.latest-news-section .news-contant {
+		padding: 60px 0px 0px 0px;
+	}
+	.aboutme-section .success-child-left{
+		padding:0;
+		padding-bottom:15px;
+	}
+	.aboutme-section .success{
+		padding-top:20px;
+	}
+	.latest-news-section ul.post-mate2 li {
+		margin: 0;
+		padding: 0;
+		margin-right: 25px;
+		padding-right: 25px;
+	}
+	.aboutme-section .success-child-left > p{
+		line-height:24px;
+	}
+}
+@media (max-width: 1199px){
+	
+	.header-section nav.main-nav ul > li > a {
+		padding: 0px 12px;
+	}
+	.personal-details-left p{
+		display:none;
+	}
+	
+}
+/* ------------------------------------------------------------------------------------------
+1 - media screen and (max-width: 1199px) End
+------------------------------------------------------------------------------------------ */
+
+@media (min-width: 1300px) and (max-width: 1337px) {
+	.aboutme-section ul.service-list li{
+		width: 145px;
+		height: 180px;
+		padding: 30px;
+	}
+}
+
+
+
+@media screen and (max-width: 1370px) {
+	.aboutme-section .success-child-left{
+		width:100%;
+	}
+	.aboutme-section .success-child-right{
+		width:100%;
+		text-align:center;
+	}
+	.aboutme-section .success-child-left > p{
+		line-height:50px;
+	}
+	
+}
+/* ------------------------------------------------------------------------------------------
+2 - media screen and (max-width: 991px) Start --->>>for medium device
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 991px) {
+
+	body {
+		padding: 15px;
+	}
+	.sec-p100-bg-bs {
+		padding: 30px;
+	}
+
+	.header-section nav.main-nav ul.alternative-menu {
+		display: inline-block;
+		box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
+	}
+	.header-section nav.main-nav ul.alternative-menu > li.side-menu-btn a {
+		height: 80px;
+		line-height: 80px;
+		border-left:1px solid #eeeeee;
+	}
+	.header-section nav.main-nav ul.alternative-menu > li > a {
+		font-size: 24px;
+		padding: 0px 25px;
+	}
+	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
+		width: 85%;
+		height: 50px;
+		display: table;
+		position: relative;
+	}
+	.header-section nav.main-nav ul.alternative-menu > li form input.alternative-search {
+		margin: 0;
+		height:76px;
+		border: none;
+		color: #111111;
+		border-radius: 2px;
+		transition: all .4s ease-in-out;
+		background-color: transparent;
+	}
+	.header-section nav.main-nav ul.alternative-menu > li form input[type=search]:focus:not([readonly]) {
+		border: none;
+		box-shadow: none;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
+	}
+	.header-section nav.main-nav ul.alternative-menu > li form label.label-icon {
+		top: 0;
+		right: 17px;
+		font-size: 18px;
+		position: absolute;
+	}
+	.header-section nav.main-nav ul.alternative-menu > li form input[type=search]:focus:not([readonly]) + label.label-icon {
+		color: #2196f3;
+	}
+	
+	.alt-search-area input{
+	width:calc(100% - 40px);
+	float:left;
+	padding-left:30px;
+	}
+	.alt-search-area button{
+		top: 0;
+		width:40px;
+		float:right;
+		right: 0;
+		height:76px;
+		font-size: 18px;
+		position: absolute;
+		background:#ffffff;
+		border:none;
+		color:#000000;
+		padding-right:30px;
+	}
+	
+	.main-nav-ul {
+		display: none;
+	}
+
+	.Section-title h2 {
+		padding: 0px 0px;
+	}
+	.Section-title span {
+		top: -32px;
+		font-size: 65px;
+	}
+
+	.main-slider .item {
+		padding: 50px;
+	}
+	.main-slider .item-child-left p.name {
+		font-size: 34px;
+	}
+
+	.aboutme-section ul.service-list li {
+		margin-right: 30px;
+	}
+
+	.single_experties {
+		margin-bottom: 25px !important;
+	}
+
+	.education-section .accordion .accordion-header > span.icon {
+		display: none;
+	}
+	.education-section .accordion .accordion-header > p {
+		padding: 15px 20px;
+	}
+
+	.my-portfolio-section .button-group {
+		width: 100%;
+		height: auto;
+		display: table;
+	}
+	.portfolio-search {
+		width: 100%;
+		margin-top: 12px;
+		padding: 30px 0px;
+		border-top: 1px solid #f0f0f0;
+	}
+	.my-portfolio-section .element-item {
+		width: 50%;
+	}
+
+	#testomonial-carousel .item .testomonial-contant {
+		padding: 14px;
+	}
+	#testomonial-carousel {
+		height: 221px;
+	}
+	#testomonial-carousel .owl-dots {
+		right: -1.5%;
+	}
+	ul.brand-list li {
+		width: 50%;
+		border: none;
+	}
+	ul.brand-list li:hover {
+		border: none;
+		transform: scale(1.1);
+	}
+
+	.latest-news-section ul.pagination {
+		width: 100%;
+	}
+
+	.contact-me-section .contact-left .cont-item {
+		margin-bottom: 30px;
+		background-color: #ffffff;
+		box-shadow: 0px 5px 20px 0px rgba(1, 1, 1, 0.1);
+	}
+	.contact-me-section .contact-left .cont-item:last-child {
+		margin-bottom: 30px;
+	}
+	.main_profile {
+		text-align: center;
+	}
+	.main_profile .item_child_left{
+		padding:60px;
+	}
+	.main_profile .item_child_left,
+	.main_profile .item_child_right	{
+		float: none;
+		display: inline-block;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.personal-details-left .popup_video {
+		left: 40%;
+	}
+	.personal-details-left p {
+		left: 31%;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+2 - media screen and (max-width: 991px) End --->>>for medium device
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+3 - media screen and (max-width: 767px) Start --->>>For Mobile Device
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 767px){
+	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
+		width: 80%;
+
+	}
+	.my-portfolio-section .button-group .button {
+		padding: 0px 20px;
+	}
+	.aboutme-section .success-child-left > p{
+		line-height:24px;
+		padding-top:15px;
+	}
+	.personal-details-left p{
+		display:none;
+	}
+	.personal-details-left .popup_video {
+		left: 45%;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+3 - media screen and (max-width: 767px) End --->>>For Mobile Device
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+4 - media screen and (max-width: 680px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 680px){
+		.circle {
+		margin-bottom: 20px;
+	}
+	.skilled-tittle,
+	.progress {
+		width: 100%;
+	}
+	.Section-title h2 {
+		font-size: 24px;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+4 - media screen and (max-width: 680px) End
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+5 - media screen and (max-width: 480px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 480px){
+	body {
+		font-size: 14px;
+	}
+	.Section-title h2 {
+		font-size: 18px;
+	}
+	.Section-title span {
+		top: -10px;
+		font-size: 26px;
+	}
+
+	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
+		width: 70%;
+	}
+
+	.main-slider .item {
+		padding: 30px;
+	}
+	.main-slider .item-child-right {
+		display: none;
+	}
+	.main-slider .item-child-left {
+		padding: 65px 0px;
+		text-align: center;
+	}
+	.main-slider .item-child-left h2.hi {
+		font-size: 40px;
+	}
+	.main-slider .item-child-left p.name {
+		font-size: 18px;
+	}
+	.main-slider .item-child-left small.position {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.main-slider .owl-dots {
+		right: 20px;
+	}
+
+	.aboutme-section ul.service-list li {
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
+
+	.my-portfolio-section .button-group {
+		margin-bottom: 30px;
+	}
+	.my-portfolio-section .button-group .button {
+		width: 100%;
+		display: block;
+	}
+	.professional-skills-area ul.skills-tab li.tag-icon {
+		display: none;
+	}
+	.professional-skills-area ul.skills-tab li.tag-item {
+		width: 50%;
+	}
+	#graphicdesign, #photography, #technology, #design, #webdevelopment, #application {
+		padding: 30px 30px;
+	}
+
+	.education-section .accordion .accordion-header > p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.education-section .accordion .accordion-header:before {
+		right: 15px;
+	}
+	.education-section .accordion .accordion-body {
+		padding: 15px;
+	}
+
+	.my-portfolio-section .element-item {
+		width: 100%;
+		display: block;
+	}
+
+	ul.brand-list li {
+		width: 100%;
+	}
+
+	.experience-left {
+		padding: 0px 0px;
+	}
+	.experience-left .experience-left-item-area {
+		padding: 30px 30px;
+	}
+	.experience-left .experience-item:before {
+		left: -43px;
+	}
+	.experience-left .experience-item:after {
+		left: -36px;
+	}
+	.experience-right .achivement {
+		padding: 30px;
+	}
+
+	.latest-news-section ul.pagination {
+		height: 45px;
+	}
+	.latest-news-section ul.pagination li {
+		width: 45px;
+	}
+	.latest-news-section ul.pagination li a {
+		line-height: 45px;
+	}
+	.latest-news-section ul.pagination li i {
+		font-size: 16px;
+		position: relative;
+		top: 0;
+	}
+
+	.contact-me-section .contact-left .cont-item {
+		height: 160px;
+		padding: 30px;
+	}
+	.contact-me-section .contact-right {
+		padding: 30px;
+	}
+
+	.footer-section {
+		padding: 30px;
+	}
+	.backtotop {
+		width: 50px;
+		height: 50px;
+	}
+	.backtotop a.scroll {
+		line-height: 50px;
+	}
+	.header-section nav.main-nav ul > li > a:hover{
+		background: transparent;
+	}
+	body.clearfix.dark-version nav.main-nav ul > li > a:hover {
+		background-color: transparent !important;
+	}
+	.main_profile .item_child_left {
+		padding: 60px;
+	}
+}
+
+@media (max-width: 780px){
+	#testomonial-carousel {
+		height: auto;
+	}
+	#testomonial-carousel .item .testomonial-img {
+		width: 100%;
+	}
+	#testomonial-carousel .item .testomonial-contant {
+		width: 100%;
+		padding: 15px;
+	}
+}
+/* ------------------------------------------------------------------------------------------
+5 - media screen and (max-width: 480px) End
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 360px){
+.main_profile .item_child_left {
+		padding: 30px;
+	}
+}
+
+
+/* ------------------------------------------------------------------------------------------
+6 - media screen and (max-width: 320px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 320px){
+	button.custom-btn > i,
+	a.custom-btn > i {
+		display: none;
+	}
+
+	.Section-title span {
+		font-size: 24px;
+	}
+
+	.header-section nav.main-nav ul.alternative-menu > li > a {
+		padding: 0px 18px;
+	}
+
+	.aboutme-section .success {
+		padding: 15px;
+	}
+
+	.aboutme-section .success a.hire-me {
+		width: 170px;
+		height: 60px;
+		font-size: 16px;
+		line-height: 60px;
+	}
+
+	.skilled-tittle,
+	.progress {
+		width: 100%;
+	}
+
+	h2.title,
+	#photography h2.title {
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+
+	.my-portfolio-section .element-item {
+		width: 100%;
+		height: 230px;
+	}
+
+	.contact-me-section .contact-left .cont-item {
+		height: 150px;
+		padding: 15px;
+	}
+	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
+		width: 55%;
+		padding-left: 15px;
+	}
+	
+
+}
+@media (max-width: 1199px){
+	.contact-me-section .contact-right{
+		margin-top:100px !important;
+	}
+}
+@media (max-width: 480px){
+	body, html{
+		padding:0;
+	}
+}
+@media (min-width: 1440px){
+	#testomonial-carousel .owl-nav {
+		right:33px;
+	}
+	#testomonial-carousel .item{
+		width:97%;
+	}
+}
+/* ------------------------------------------------------------------------------------------
+6 - media screen and (max-width: 320px) End
+------------------------------------------------------------------------------------------ */
