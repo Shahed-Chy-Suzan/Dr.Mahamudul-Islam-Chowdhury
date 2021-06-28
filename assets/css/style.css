@@ -623,7 +623,8 @@ position: fixed;
 .main_profile .item_child_right {
   float: right;
   background-color: #f4f4f4;
-  padding: 35px;
+  padding: 5px;
+  /* height: 400px; */
 }
 /* item-child-left
 .................................................. */
@@ -2001,7 +2002,7 @@ body.clearfix.chooser {
 }
 .hello_logo img{
 	position:relative;
-	top: 10px;
+	top: ;
     left: 47px;
 }
 
