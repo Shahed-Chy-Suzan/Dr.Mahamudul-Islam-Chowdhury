@@ -1,0 +1,95 @@
+$body-bg: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+$icon-font-size: 30px;
+
+body{
+  background: $body-bg;
+  color: $font-color;
+}
+
+.navbar{
+  border-bottom: 3px solid $primary-color;
+  background: #292b2c;
+  opacity: 0.7;
+
+  .nav-item{
+    .nav-link{
+      color: #fff;
+    }
+    // .nav-link:hover{
+    //   border-bottom: 1px solid $primary-color;
+    // }
+  }
+
+}
+
+#home-section{
+  background: url('../img/desk.jpeg') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .dark-overlay{
+    background: rgba(0,0,0,.7);
+    min-height: 700px;
+  }
+  .fa{
+    background: #fff;
+    color: $primary-color;
+    font-size: $icon-font-size;
+    border-radius: 5px;
+  }
+  .card-form11{
+    opacity: .8;
+  }
+  .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+
+}
+
+#explore-main-section{
+  .fa{
+    font-size: $icon-font-size;
+    background: #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+  }
+}
+
+#create-main-section{
+  .fa{
+    background: #fff;
+    font-size: $icon-font-size;
+    color: $primary-color;
+    padding: 4px;
+    border-radius: 5px;
+  }
+}
+
+#share-main-section{
+  .fa{
+    background: #333;
+    color: #fff;
+    font-size: $icon-font-size;
+    padding: 4px;
+    border-radius: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+  #home-section h1{
+    font-size: 36px;
+  }
+}
+
